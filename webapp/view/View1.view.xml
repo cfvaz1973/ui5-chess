@@ -1,0 +1,212 @@
+<mvc:View controllerName="ui5.futureview.ui5chess.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+    displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <HBox class="chessBoard">
+                <!-- Rank 8 -->
+                <HBox class="square white">
+                    <Image id='rooka8' class="piece rook" app:color="black" src="..\img\Black_Rook.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\Black_Knight.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\Black_Bishop.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\Black_Queen.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\Black_King.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\Black_Bishop.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\Black_Knight.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\Black_Rook.png" />
+                </HBox>
+                <!-- Rank 7 -->
+                <HBox class="square black">
+                    <Image src="..\img\Black_Pawn.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\Black_Pawn.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\Black_Pawn.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\Black_Pawn.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\Black_Pawn.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\Black_Pawn.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\Black_Pawn.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\Black_Pawn.png" />
+                </HBox>
+                <!-- Rank 5 -->
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <!-- Rank 4 -->
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <!-- Rank 3 -->
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <!-- Rank 6 -->
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="" />
+                </HBox>
+                <!-- Rank 2 -->
+                <HBox class="square white">
+                    <Image src="..\img\White_Pawn.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\White_Pawn.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\White_Pawn.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\White_Pawn.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\White_Pawn.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\White_Pawn.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\White_Pawn.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\White_Pawn.png" />
+                </HBox>
+                <!-- Rank 1 -->
+                <HBox class="square black">
+                    <Image src="..\img\White_Rook.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\White_Knight.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\White_Bishop.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\White_Queen.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\White_King.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\White_Bishop.png" />
+                </HBox>
+                <HBox class="square black">
+                    <Image src="..\img\White_Knight.png" />
+                </HBox>
+                <HBox class="square white">
+                    <Image src="..\img\White_Rook.png" />
+                </HBox>
+            </HBox>
+        </content>
+    </Page>
+</mvc:View>
