@@ -69,7 +69,7 @@ sap.ui.define([
                 function drag(ev) {
                     const piece = ev.target;
                     const oView = that.getView();
-                    const pieceColor = that.getView().byId(piece.id); //.data("color")
+                    const pieceColor = that.getView().byId(piece.id).data("color");
                     //const pieceColor = piece.getAttribute("color");
                     if ((isWhiteTurn && pieceColor == "white") || (!isWhiteTurn && pieceColor == "black"))
                         ev.dataTransfer.setData("text", piece.id);
